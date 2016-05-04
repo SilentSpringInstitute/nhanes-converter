@@ -35,4 +35,7 @@ $ ruby ./pdftotext.rb --most-recent ./nhanes_feb2015.csv
 Dependencies
 -----------
 `Ruby`
+
 `pdftotext` (look for it in the `poppler-utils` package in your package repository)
+
+`ruby-progressbar` gem. Install with ```$ gem install ruby-progressbar```

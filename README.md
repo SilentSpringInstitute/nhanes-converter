@@ -21,17 +21,6 @@ Convert a summary table PDF to a CSV:
 $ ruby ./pdftotext.rb ./nhanes_feb2015.pdf ./nhanes_feb2015.csv
 ```
 
-Also works with flags for input/output:
-```
-$ ruby ./pdftotext.rb -input ./nhanes_feb2015.pdf -output ./nhanes_feb2015.csv
-```
-
-Download the most recent version of the summary tables from the CDC:
-```
-$ ruby ./pdftotext.rb --most-recent ./nhanes_feb2015.csv
-```
-
-
 Dependencies
 -----------
 `Ruby`

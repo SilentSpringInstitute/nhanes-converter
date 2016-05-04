@@ -7,7 +7,7 @@ Background
 
 Chemical test results are published publicly online, as both the original data as well as summary statistics. The statistics are available in PDF form as the ["National Report on Human Exposure to Environmental Chemicals"](http://www.cdc.gov/biomonitoring/pdf/FourthReport_UpdatedTables_Feb2015.pdf) The tables include statistics like the geometric mean and selected quantiles. The tables are periodically updated along with the data. The PDF is huge: right now it is just over 61 megabytes. Moreover, the data is difficult to access programmatically due to the PDF format.
 
-These statistics are useful as a way to validate analyses performed on the data. For example, the R package [RNHANES](http://www.cdc.gov/exposurereport) uses a different method to compute summary statistics than CDC does (they use SAS), so the output is checked against the summary tables to make sure they match.
+These statistics are useful as a way to validate analyses performed on the data. For example, the R package [RNHANES](http://github.com/SilentSpringInstitute/RNHANES) uses a different method to compute summary statistics than CDC does (they use SAS), so the output is checked against the summary tables to make sure they match.
 
 PDF Extractor
 -------------
